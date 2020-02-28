@@ -15,7 +15,7 @@ const (
 )
 
 // DBNAME ...
-var DBNAME = os.Getenv(`MDB_NAME`) // actual name of Mongo Database Name, local or 'Rewards' for dev/test/prod
+var DBNAME = os.Getenv(`MDB_NAME`) // actual name of Mongo Database Name
 
 // CheckAndInitServiceConnection ...
 func CheckAndInitServiceConnection() {
